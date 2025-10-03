@@ -228,7 +228,7 @@ function getToolBarButtonBorderColor(name: string, buttonBorderless: boolean) {
           class="select-text text-sm"
           :style="{ color: buttonText }"
         >
-          Freesm Launcher Release Sequoia 1.3.0, now available
+          This website is completely open source :3
         </p>
       </div>
       <div class="flex flex-nowrap items-center gap-1">
