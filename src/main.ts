@@ -4,7 +4,7 @@ import { createRouter } from "@kitbag/router";
 import { VueQueryPlugin as query } from "@tanstack/vue-query";
 import { RoutesConfiguration } from "@/constants/routes.ts";
 import App from "@/App.vue";
-import NotFound from "@/pages/NotFound.vue";
+import Themes from "@/pages/Themes.vue";
 // Import UnoCSS essentials
 import "virtual:uno.css";
 // Reset all CSS styles in a Tailwind style
@@ -15,7 +15,7 @@ const app = createApp(App);
 const pinia = createPinia();
 const router = createRouter(RoutesConfiguration, {
   "rejections": {
-    "NotFound": NotFound,
+    "NotFound": Themes,
   },
 });
 
