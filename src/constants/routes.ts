@@ -51,16 +51,16 @@ export const Redirects: {
   >;
 } = {
   "left": {
-    "/"         : "/downloads",
+    "/prism"    : "/downloads",
     "/downloads": "/faq",
     "/faq"      : "/themes",
-    "/themes"   : "/",
+    "/themes"   : "/prism",
   },
   "right": {
-    "/downloads": "/",
+    "/downloads": "/prism",
     "/faq"      : "/downloads",
     "/themes"   : "/faq",
-    "/"         : "/themes",
+    "/prism"    : "/themes",
   },
 };
 export const RoutesConfiguration = Object

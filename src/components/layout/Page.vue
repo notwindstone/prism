@@ -47,7 +47,7 @@ watchEffect(() => {
 
   const currentHref: string = currentRoute?.matched?.path;
   const possibleHrefs: Array<typeof Routes[keyof typeof Routes]["Path"]>
-    = ["/", "/downloads", "/faq", "/themes"];
+    = ["/prism", "/downloads", "/faq", "/themes"];
   let isOk = false;
 
   for (const possibleHref of possibleHrefs) {

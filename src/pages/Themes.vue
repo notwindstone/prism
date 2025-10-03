@@ -27,5 +27,14 @@ const translations = inject<TranslationsReferenceType>(TranslationsContextKey);
       </p>
     </div>
     <ThemeGenerator />
+    <div class="text-sm text-gray-400">
+      <span>Made by</span>
+      <span>{{ " " }}</span>
+      <a class="text-white" href="https://github.com/notwindstone" target="_blank">
+        notwindstone
+      </a>
+      <span>{{ " " }}</span>
+      <span>{{ "<3" }}</span>
+    </div>
   </Page>
 </template>
