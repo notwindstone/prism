@@ -5,12 +5,12 @@ import ThemeGenerator from "@/components/themes/ThemeGenerator.vue";
 import { TranslationsContextKey } from "@/constants/application.ts";
 import type { TranslationsReferenceType } from "@/types/translations-reference.type.ts";
 
-document.title = "Themes - Freesm Launcher";
+document.title = "Themes - Prism Launcher";
 document
   ?.querySelector?.("meta[name=\"description\"]")
   ?.setAttribute?.(
     "content",
-    "Easily create and preview your Freesm Launcher theme in real-time.",
+    "Easily create and preview your Prism Launcher theme in real-time.",
   );
 
 const translations = inject<TranslationsReferenceType>(TranslationsContextKey);
@@ -27,7 +27,7 @@ const translations = inject<TranslationsReferenceType>(TranslationsContextKey);
       </p>
     </div>
     <ThemeGenerator />
-    <div class="text-sm text-gray-400">
+    <div class="text-center text-sm text-gray-400">
       <span>Made by</span>
       <span>{{ " " }}</span>
       <a class="text-white" href="https://github.com/notwindstone" target="_blank">
