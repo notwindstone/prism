@@ -122,8 +122,8 @@ onAfterRouteLeave(() => {
         <div
           ref="scrollTarget"
           :class="[
-            'relative min-h-[calc(100svh-80px)] w-full flex justify-center overflow-x-hidden',
-            'scroll-gutter-stable-both xle:pt-20 xle:min-h-svh',
+            'relative min-h-svh w-full flex justify-center overflow-x-hidden',
+            'scroll-gutter-stable-both xle:min-h-svh',
             scrollLocked && 'overflow-y-hidden',
           ]"
         >

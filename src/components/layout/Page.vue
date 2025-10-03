@@ -3,7 +3,6 @@ import { useSwipe } from "@vueuse/core";
 import { ref, computed, useTemplateRef, watchEffect, inject, watch } from "vue";
 import { useRoute, useRouter } from "@kitbag/router";
 import { Redirects, Routes } from "@/constants/routes.ts";
-import Footer from "@/components/layout/Footer.vue";
 import { PageWrapperContextKey } from "@/constants/application.ts";
 import { useMobileSwipes } from "@/lib/stores/misc/mobile-swipes.ts";
 
@@ -95,7 +94,6 @@ watchEffect(() => {
     <div class="relative z-5 bg-catppuccin-950 p-4">
       <slot />
     </div>
-    <Footer />
     <!-- To make footer's corners round even if footer is not fully visible -->
     <div class="absolute bottom-87 left-0 z-5 h-4 w-4 bg-catppuccin-950 sm:bottom-54">
       <div class="h-4 w-4 rounded-tl-md bg-catppuccin-925" />

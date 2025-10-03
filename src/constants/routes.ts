@@ -13,7 +13,7 @@ export const Routes = {
     "Key" : "Home",
     "Name": "routes.home.name",
     "Icon": Compass,
-    "Path": "/",
+    "Path": "/prism",
   },
   "Downloads": {
     "Key" : "Downloads",
