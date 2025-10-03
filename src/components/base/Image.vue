@@ -14,7 +14,7 @@ const shown = ref<boolean>(false);
     @load="shown = true"
     loading="lazy"
     :alt="alt"
-    :src="src"
+    :src="`/prism${src}`"
     :class="[
       'shrink-0 transition-[opacity] duration-300',
       shown ? 'opacity-100' : 'opacity-0',
