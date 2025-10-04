@@ -25,12 +25,15 @@ const translations = inject<TranslationsReferenceType>(TranslationsContextKey);
       <p class="text-right-to-left select-text text-center text-balance text-lg text-gray-400 sm:text-2xl">
         {{ translations?.Messages?.["pages.themes.description"] }}
       </p>
+      <a href="https://prismlauncher.org/wiki/getting-started/change-themes/#how-to-install-themes-and-icons" class="select-text text-center text-white hover:underline">
+        Installation guide
+      </a>
     </div>
     <ThemeGenerator />
     <div class="text-center text-sm text-gray-400">
       <span>Made by</span>
       <span>{{ " " }}</span>
-      <a class="text-white" href="https://github.com/notwindstone" target="_blank">
+      <a class="text-white hover:underline" href="https://github.com/notwindstone" target="_blank">
         notwindstone
       </a>
       <span>{{ " " }}</span>

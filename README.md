@@ -1,0 +1,1 @@
+Well, initially this theme generator was made for https://github.com/FreesmTeam/website
