@@ -225,7 +225,7 @@ function getToolBarButtonBorderColor(name: string, buttonBorderless: boolean) {
         />
         <div class="i-fluent-news-16-regular" />
         <a
-          href="github.com/notwindstone/prism/"
+          href="https://github.com/notwindstone/prism/"
           target="_blank"
           class="select-text text-sm hover:underline"
           :style="{ color: buttonText }"
