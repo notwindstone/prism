@@ -30,14 +30,17 @@ const translations = inject<TranslationsReferenceType>(TranslationsContextKey);
       </a>
     </div>
     <ThemeGenerator />
-    <div class="text-center text-sm text-gray-400">
-      <span>Made by</span>
-      <span>{{ " " }}</span>
-      <a class="text-white hover:underline" href="https://github.com/notwindstone" target="_blank">
-        notwindstone
-      </a>
-      <span>{{ " " }}</span>
-      <span>{{ "<3" }}</span>
+    <div class="w-full flex flex-nowrap items-center justify-center gap-2">
+      <div class="text-center text-sm text-gray-400">
+        <span>Made by</span>
+        <span>{{ " " }}</span>
+        <a class="text-white hover:underline" href="https://github.com/notwindstone" target="_blank">
+          notwindstone
+        </a>
+        <span>{{ " " }}</span>
+        <span>{{ "<3" }}</span>
+      </div>
+      <img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fnotwindstone.github.io%2Fprism%2F&label=visits&icon=person-circle&color=%238540f5&message=&style=flat-square&tz=UTC" />
     </div>
   </Page>
 </template>
